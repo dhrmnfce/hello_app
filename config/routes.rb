@@ -3,7 +3,9 @@ Rails.application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  root 'application#hello'
+  # Original root at 'hello', moved to 'goodbye' for Ruby on Rails Tutorial exercise (1.7)
+  # root 'application#hello'
+  root 'application#goodbye'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
